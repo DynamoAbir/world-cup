@@ -1,0 +1,37 @@
+.container {
+  background-image: url(./Images/messi-running.png);
+  background-repeat: no-repeat;
+  background-color: #1a1e24;
+  background-position-x: 705px;
+  background-position-y: 20px;
+  height: 646px;
+  width: 1321px;
+  margin: 108px 130px 139px 270px;
+  background-size: 470px;
+  border-radius: 20px;
+}
+
+.main-tag-line h4 {
+  font-size: 70px;
+  color: #ffffff;
+  margin-top: ;
+}
+.main-little-pera p {
+  margin-top: -70px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.watch-button button {
+  padding: 21px 64px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  background-color: #edb123;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+.written-side {
+  width: 400px;
+  border: 2px #1a1e24 solid;
+  margin-left: 120px;
+}
