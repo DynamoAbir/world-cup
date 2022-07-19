@@ -1,3 +1,9 @@
+/* * {
+  margin: 0px;
+} */
+body {
+  font-family: "Nunito", sans-serif;
+}
 .container {
   background-image: url(./Images/messi-running.png);
   background-repeat: no-repeat;
@@ -12,7 +18,7 @@
 }
 
 .main-tag-line h4 {
-  font-size: 70px;
+  font-size: 60px;
   color: #ffffff;
   margin-top: ;
 }
@@ -34,4 +40,110 @@
   width: 400px;
   border: 2px #1a1e24 solid;
   margin-left: 120px;
+}
+/* end of header  */
+
+.asside {
+  height: 312px;
+  width: 301px;
+}
+.transfer-article {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  height: 364px;
+  width: 312px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.transfer-button button {
+  padding: 7px 30px;
+  text-decoration: none;
+  color: #1a1e24;
+  font-size: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.icons i {
+  padding-right: 10px;
+}
+.icons p {
+  padding-right: 50px;
+  font-size: 16px;
+}
+.sala-image h3 {
+  padding-left: 20px;
+}
+.transfer-articals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  margin-bottom: 150px;
+}
+.asside-and-transfer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1321px;
+
+  margin-left: 265px;
+}
+.asside-box button {
+  padding: 14px 33px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  background-color: #edb123;
+  border-radius: 15px;
+  margin-top: 22px;
+  margin-left: 16px;
+}
+.asside-box {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 30px;
+}
+.asside {
+  background-color: #1a1e24;
+  border-radius: 20px;
+}
+
+.asside a {
+  text-decoration: none;
+  color: #1a1e24;
+}
+
+/* End of transfer and asside  */
+
+footer {
+  width: 100%;
+  height: 389px;
+  background-color: #1a1e24;
+}
+
+footer h3 {
+  font-size: 60px;
+  color: #ffffff;
+  margin-left: 811px;
+  padding-top: 100px;
+}
+
+.ftr-content a {
+  text-decoration: none;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.ftr-content {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
