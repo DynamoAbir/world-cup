@@ -149,6 +149,7 @@ footer h3 {
   justify-content: space-around;
   align-items: center;
 }
+/* for tablates */
 @media screen and (max-width: 768px) {
   body {
     font-family: "Nunito", sans-serif;
