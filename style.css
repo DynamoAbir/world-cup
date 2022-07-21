@@ -131,7 +131,23 @@ body {
 }
 
 /* End of transfer and asside and main body part  */
+/* hiddne follow button  */
 
+.hidden-btn a {
+  width: 60px;
+  height: 30px;
+  background-color: #edb123;
+  padding-left: 70px;
+  padding-right: 70px;
+
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 15px;
+  color: #ffffff;
+  visibility: hidden;
+}
 footer {
   width: 100%;
   height: 427px;
@@ -299,6 +315,10 @@ footer h3 {
   .asside {
     border-radius: 20px;
   }
+
+  .hidden-btn a {
+    visibility: visible;
+  }
   /* footer part  */
   footer {
     width: 755px;
@@ -453,5 +473,9 @@ footer h3 {
   }
   .asside {
     border-radius: 20px;
+  }
+
+  .hidden-btn a {
+    visibility: hidden;
   }
 }
