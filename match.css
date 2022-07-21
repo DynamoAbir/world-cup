@@ -1,6 +1,3 @@
-/* * {
-  margin: 0px;
-} */
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -17,10 +14,22 @@ body {
   border-radius: 20px;
 }
 
+.container:hover {
+  background-image: url(./Images/101732-football-kick.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container:hover h4 {
+  color: #1a1e24;
+}
+.container:hover p {
+  color: #1a1e24;
+}
 .main-tag-line h4 {
   font-size: 60px;
   color: #ffffff;
-  margin-top: a;
+  padding-top: 54px;
 }
 .main-little-pera p {
   margin-top: -70px;
@@ -38,7 +47,7 @@ body {
 }
 .written-side {
   width: 400px;
-  border: 2px #1a1e24 solid;
+
   margin-left: 120px;
 }
 /* end of header  */
@@ -100,7 +109,7 @@ body {
   text-decoration: none;
   color: black;
   font-size: 20px;
-  background-color: #edb123;
+  background-color: #ffffff;
   border-radius: 15px;
   margin-top: 22px;
   margin-left: 16px;
@@ -118,6 +127,10 @@ body {
 .asside a {
   text-decoration: none;
   color: #1a1e24;
+}
+
+#btn {
+  background-color: #edb123;
 }
 
 /* End of transfer and asside  */
@@ -299,7 +312,7 @@ footer h3 {
     text-decoration: none;
     color: black;
     font-size: 20px;
-    background-color: #edb123;
+    background-color: #ffffff;
     border-radius: 15px;
     margin-top: 22px;
     margin-left: 16px;
@@ -361,8 +374,8 @@ footer h3 {
     background-repeat: no-repeat;
     background-color: #1a1e24;
     background-position-x: 240px;
-    background-position-y: 264px;
-    height: 646px;
+    background-position-y: 318px;
+    height: 700px;
     width: 641px;
     margin: 36px 130px 0px 6px;
     background-size: 300px;
@@ -475,7 +488,7 @@ footer h3 {
     text-decoration: none;
     color: black;
     font-size: 20px;
-    background-color: #edb123;
+    background-color: #ffffff;
     border-radius: 15px;
     margin-top: 22px;
     margin-left: 16px;

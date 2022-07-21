@@ -1,0 +1,14 @@
+.button {
+  padding: 20px;
+  background-color: red;
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .button {
+    display: none;
+  }
+}
+@media screen and {
+  #rocket {
+    background-color: aqua;
+  }
+}
