@@ -137,7 +137,7 @@ body {
 
 footer {
   width: 100%;
-  height: 389px;
+  height: 427px;
   background-color: #22a6b3;
 }
 
@@ -197,6 +197,16 @@ footer h3 {
   margin-bottom: 150px;
   margin-left: 80px;
   margin-right: 0px;
+}
+.social {
+  height: 50px;
+  width: 50px;
+}
+.media-section {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
 }
 
 /* responsive for tablets  */
@@ -335,7 +345,7 @@ footer h3 {
   /* footer  */
   footer {
     width: 688px;
-    height: 485px;
+    height: 550px;
     background-color: #22a6b3;
   }
 
@@ -511,7 +521,7 @@ footer h3 {
   /* end of main part  */
   footer {
     width: 688px;
-    height: 485px;
+    height: 560px;
     background-color: #22a6b3;
   }
 

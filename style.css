@@ -134,7 +134,7 @@ body {
 
 footer {
   width: 100%;
-  height: 389px;
+  height: 427px;
   background-color: #22a6b3;
 }
 
@@ -156,6 +156,17 @@ footer h3 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.social {
+  height: 50px;
+  width: 50px;
+}
+.media-section {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
 }
 /* Start of responsive part  */
 
@@ -291,7 +302,7 @@ footer h3 {
   /* footer part  */
   footer {
     width: 755px;
-    height: 389px;
+    height: 427px;
     background-color: #22a6b3;
   }
 
