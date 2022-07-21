@@ -198,6 +198,21 @@ footer h3 {
   margin-left: 80px;
   margin-right: 0px;
 }
+.hidden-btn a {
+  width: 60px;
+  height: 30px;
+  background-color: #edb123;
+  padding-left: 70px;
+  padding-right: 70px;
+
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 15px;
+  color: #ffffff;
+  visibility: hidden;
+}
 .social {
   height: 50px;
   width: 50px;
@@ -342,22 +357,10 @@ footer h3 {
     color: #22a6b3;
   }
   /* hiddn follow button  */
-
   .hidden-btn a {
-    width: 60px;
-    height: 30px;
-    background-color: #edb123;
-    padding-left: 70px;
-    padding-right: 70px;
-
-    padding-top: 35px;
-    padding-bottom: 35px;
-    text-decoration: none;
-    font-size: 25px;
-    border-radius: 15px;
-    color: #ffffff;
+    visibility: visible;
+    margin-left: 223px;
   }
-
   /* footer  */
   footer {
     width: 688px;
@@ -478,6 +481,9 @@ footer h3 {
     border-radius: 15px;
     margin-top: 5px;
     margin-left: 20px;
+  }
+  .hidden-btn a {
+    visibility: hidden;
   }
 
   .icons {
